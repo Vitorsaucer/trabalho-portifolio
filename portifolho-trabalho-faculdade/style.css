@@ -1,0 +1,58 @@
+*{ 
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+body{
+    background-image: url(fundo-portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+nav{
+    padding: 40px;
+}
+
+a{
+    color: white;
+    gap: 3rem;
+    
+    
+}
+
+a:hover{
+    text-decoration: underline;    
+}
+
+h1{
+
+    padding: 50px;
+    font-size: 40px;
+    
+}
+
+img{
+    
+    width: 300px;
+    border-radius: 100px;
+    padding: 30px;
+    border: solid gray;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
