@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+   
+}
+
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 180rem;
+    background-color: black;
+    color: white;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.345);    
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+img{
+    width: 40px;
+}
+
+.icones{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.icones:hover{
+    box-shadow: 5px 5px 5px greenyellow;
+
+}
+.icones2{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.icones2:hover{
+    box-shadow: 5px 5px 5px rgb(21, 232, 255);
+}
+
+.icones3{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.icones3:hover{
+    box-shadow: 5px 5px 5px rgb(255, 67, 249);
+}
+
+.p1{   
+    padding-top: 10rem;
+    font-size: 45px;
+    margin-left: 15px;
+    margin-top: -100px;
+}
+
+.p2{
+    margin-left: 15px;
+}
+/* h1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+} */
+
+.img2{
+    width: 20rem;
+    border: solid transparent;
+    border-radius: 500px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.508);
+}
+
+.txt{
+    text-align: center;
+}
+.p3{
+    font-size: 45px;
+    text-align: center;
+}
+.txt-titulo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.txt-ed{
+    
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formaçao{
+    text-align: center;
+}
+
+.hab-txt{
+    text-align: center;
+}
+
+article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.base-card{
+   
+    width: 200px;
+    border-radius: 50px;
+    padding: 80px;
+    background: linear-gradient(to right, white, black);
+
+}
+.card{
+    text-align: center;
+    color: white;
+
+}
+
+.card:hover{
+    color: rgb(66, 173, 255);
+    transition: 0.4s;
+
+}
+
+.base-card2{
+    width: 300px;
+    background: linear-gradient(to right, black, white);
+    border-radius: 50px;
+    padding: 80px;
+    
+}
+
+.card2{
+    text-align: center;
+    
+}
+
+.card2:hover{
+    color:  rgb(66, 173, 255);
+    transition: 0.4s;
+
+}
+
+.base-card3{
+    width: 200px;
+    border-radius: 50px;
+    background: linear-gradient(to right, white, black);
+    padding: 80px;
+}
+
+.card3{
+    text-align: center;
+}
+.card3:hover{
+    color:  rgb(66, 173, 255);
+    transition: 0.4s;
+}
+
+.title-aside{
+    margin-left: 15px;   
+}
+
+.border-aside{
+    border: solid rgba(255, 255, 255, 0.364);
+    border-radius: 30px;
+    width: 30rem;
+    padding: 5px;
+    height: 169px;
+}
+
+.border-aside:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.txt-1{
+    margin-left: 15px;
+}
+
+.desc-txt-1{
+    margin-left: 20px;
+    margin-bottom: 5rem;
+}
+
+.div-alinhamento{
+    display: flex;   
+}
+
+
+.img-aside{
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+main{
+    margin-top: -30rem;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    
+}
+
+.title-main{
+    width: 10rem;
+    border-radius: 10px;
+    background: linear-gradient( to right, rgb(124, 196, 255),black,rgb(124, 196, 255));
+}
+
+.txt-base{
+    border-radius: 10px;
+    width: 450px;
+}
+
+.base-card-main{
+    width: 30rem;
+    height: 100px;
+   
+}
+
+.txt-base:hover{
+    transition: 0.4s;
+    color: orange;
+    border-radius: 5px;
+}
+
+section{
+    text-align: center;
+   
+}
+
+.img-section{
+    width: 60%;
+    height: 30%;
+    
+}
+
+.title-section{
+    text-align: center;
+}
+
+.txt-section{
+    width: 70rem;
+    display: flex;
+    margin-left: 10rem;
+    gap: 25px;
+    border: solid rgba(255, 255, 255, 0.375);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.448);
+    background: linear-gradient(to right, rgb(128, 128, 128), black);
+}
+
+
+.txt-section:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
